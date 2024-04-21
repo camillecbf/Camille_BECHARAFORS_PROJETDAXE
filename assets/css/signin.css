@@ -25,12 +25,26 @@ form input {
   margin-bottom: 30px;
 }
 
-.submit {
+/* .submit {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   padding-top: 50px;
+} */
+
+.save {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(252, 230, 244);
+  border: none;
+  border-radius: 4px;
+  color: #925c7f;
+  cursor: pointer;
+}
+
+.save:hover {
+  background-color: #f5d4ea;
 }
 
 /*verification réussie*/
